@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    
+    <title>Lightning Bot</title>
+    <meta name="description" content="An awesome discord bot with moderation, fun, games, images, utility, music and more!">
+     
+     <!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://website.lightningbot.repl.co">
+<meta property="og:title" content="Lightning Bot">
+<meta property="og:description" content ="A multipurpose discord bot with Moderation, Economy, Games, Fun, Images,Utility, Music and more!!!">
+<meta property="og:image" content="https://cdn.discordapp.com/avatars/808708515333013565/c0bbc6f5b76f0d0b74612370de2fe8fa.webp">
+    
+    <meta name="theme-color" content="#3d74cc">
+    <link rel="icon" type="image/png" sizes="300x250" href="https://cdn.discordapp.com/avatars/808708515333013565/c0bbc6f5b76f0d0b74612370de2fe8fa.webp">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alfa+Slab+One">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+
+
+</head>
+
+<body style="background-color: var(--background);">
+    <div id="top" style="height: 12px;">
+        <nav class="navbar navbar-light navbar-expand fixed-top" style="color: var(--main-color);border-top-width: 6px;border-top-style: solid;background: var(--background);">
+            <div class="container-fluid"><a class="navbar-brand" href="#" style="color: var(--main-color);font-family: 'Alfa Slab One', cursive;">Lightning Bot</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div
+                    class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav">
+
+                        <li class="nav-item"><a class="nav-link active smoothScroll" href="#feature" style="color: var(--text-color);">Features</a></li>
+                  
+                   
+                        <li class="nav-item"><a class="nav-link smoothScroll" href="#commands" 
+                style="color: var(--text-color);">Commands</a></li>
+                        
+                   
+                        
+                        <li class="nav-item"><a class="nav-link" href="https://dsc.gg/lightning-bot" target="_blank" rel="noopener noreferrer" style="color: var(--text-color);">Invite</a></li>
+                    </ul>
+            </div>
+    </div>
+    </nav>
+    </div>
+    <header class="d-xl-flex flex-column justify-content-xl-center align-items-xl-center" style="height: 418px;text-align: center;margin: 55px;">
+      <img class="rounded" src="https://cdn.discordapp.com/avatars/808708515333013565/c0bbc6f5b76f0d0b74612370de2fe8fa.webp" alt="Lightning bot Avatar" width="150" height="150" style="margin-top: 30px;" onclick="HarlemShake()">
+    
+        <h1 class="d-xl-flex justify-content-xl-start" style="color: var(--text-color);">Lightning Bot</h1>
+       
+        <p style="color: var(--secondary-text-color);">A multipurpose discord bot with Moderation,Fun,Images, Utility and more!!</p>
+        <div class="tada animated"><div role="group" class="btn-group">    <a href="https://dsc.gg/lightning-bot" target="_blank" rel="noopener noreferrer" class="btn btn-primary shadow-none" type="button" style="margin: 5px;background-color: var(--main-color);border-color: var(--main-color);border-radius: 10px;">Invite Me</a>
+	
+	<a class="btn btn-primary smoothScroll shadow-none" role="button" style="margin: 5px;background-color: var(--main-color);border-color: var(--main-color);border-radius: 10px;"
+        href="https://discord.gg/rXcf3pt3q3">Support</a></div></div>
+    </header>
+    
+    
+    
+    <div id="feature" style="height: 90px;background: var(--secondary);"><div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="var(--background)" fill-opacity="1" d="M0,96L40,112C80,128,160,160,240,144C320,128,400,64,480,48C560,32,640,64,720,69.3C800,75,880,53,960,58.7C1040,64,1120,96,1200,96C1280,96,1360,64,1400,48L1440,32L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg></div></div>
+    <div class="features-boxed" style="background: var(--secondary);">
+        <div class="container" style="color: var(--main-color);">
+            <div class="intro">
+                <h2 class="text-center" style="color: var(--text-color);">Bot Features</h2>
+            </div>
+            <div class="row justify-content-center features">
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div id="features" class="box" style="/*border-radius: 34px;*/"><i class="fa fa-bolt icon" style="color: var(--main-color);"></i>
+                        <h3 class="name">Fast</h3>
+                        <p class="description" style="color: var(--secondary-text-color);">Lightning Fast! The fastest ping recorded was 97 ms!<br></p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div id="features" class="box"><i class="fa fa-lock icon" style="color: var(--main-color);"></i>
+                        <h3 class="name">Secure</h3>
+                        <p class="description" style="color: var(--secondary-text-color);">Absolutely no leaks!<br></p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div id="features" class="box"><i class="fa fa-smile-o icon" style="color: var(--main-color);"></i>
+                                  <h3 class="name">Happy Users</h3>
+                        <p class="description" style="color: var(--secondary-text-color);">“Is this bot created by you? <br> BROOO greaaattt job!”
+                <br>—Lily✿<br></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div></div>
+    </div>
+    <div style="background-color: var(--background);"><div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-41.53,-9.56 C167.83,173.98 302.14,-60.89 534.09,89.10 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: var(--secondary);"></path></svg></div></div>
+    <div id="commands">
+        <section>
+            <div class="container-fluid text-white">
+                <div class="row row-cols-3 justify-content-center" style="color: var(--secondary-text-color);">
+                    <div class="col-auto col-md-6 col-lg-4 text-center pb-5 pt-5 number-item love_counter">
+                        <h1 class="love_count" style="font-size: 70px;"><strong>70</strong></h1>
+                        <h4 style="color: var(--main-color);margin-top: -6px;">Total Servers</h4>
+                    </div>
+                    <div class="col-auto col-lg-4 text-center align-self-center pb-5 pt-5 love_counter">
+                        <h1 class="love_count" style="font-size: 70px;"><strong>98000</strong></h1>
+                        <h4 style="color: var(--main-color);margin-top: -6px;">Total Users</h4>
+                    </div>
+                </div>
+            </div>
+        </section><div class="container">
+  <h2>All Commands</h2>
+  <p>Remember that the bot prefix is<kbd>;</kbd> <br> Use <kbd>;</kbd> before every command.</p>
+  <div class="accordion">
+
+<!--Admin cmds-->
+          <div class="accordion-item">
+      <button id="accordion-button-1" aria-expanded="false"><span class="accordion-title">Admin Commands</span><span class="icon" aria-hidden="true"></span></button>
+      <div class="accordion-content">
+        <p> 
+      addcc, addemoji, alt-config, autorole, bypass-alt, delcc, disablemodlogchannel, disablemuterole, fetch-alts, setmodlogchannel, setmuterole, svr 
+         </p>
+      </div>
+    </div>
+    <!---  -->
+        <!-- Economy cmds -->
+          <div class="accordion-item">
+      <button id="accordion-button-2" aria-expanded="false"><span class="accordion-title">Economy Commands</span><span class="icon" aria-hidden="true"></span></button>
+      <div class="accordion-content">
+        <p>
+balance, beg, buy, daily, give, inventory, leaderboard, search, store, weekly, work        </p>
+      </div>
+    </div>
+    <!---  -->
+ <!-- Fun Cmds-->
+          <div class="accordion-item">
+      <button id="accordion-button-2" aria-expanded="false"><span class="accordion-title">Fun Commands</span><span class="icon" aria-hidden="true"></span></button>
+      <div class="accordion-content">
+        <p>8ball, advice, ascii, binary, clyde, coinflip, comment, eject, embedsay, emojify, fact, github, howgay, meme, memory, roast, say, snipe, status, urbandictionary, weather
+        </p>
+      </div>
+    </div>
+    <!---  -->
+ <!-- Game cmds -->
+          <div class="accordion-item">
+      <button id="accordion-button-2" aria-expanded="false"><span class="accordion-title">Game Commands</span><span class="icon" aria-hidden="true"></span></button>
+      <div class="accordion-content">
+        <p> connectfour, duelquiz, gunfight, rps, shuffle-guess, tictactoe   
+        </p>
+      </div>
+    </div>
+    <!--- -->
+    <!-- Image cmds -->
+          <div class="accordion-item">
+      <button id="accordion-button-1" aria-expanded="false"><span class="accordion-title">Image Commands</span><span class="icon" aria-hidden="true"></span></button>
+      <div class="accordion-content">
+        <p> 
+      ad, affect, avatarfusion, beautiful, cat, changemymind, delete, dog, dogfact, facepalm, fire, gay, invert, jail, kangaroo, notstonks, paint, panda, presentation, putin, respect, rip, scary, slap, stonks, tattoo, thomas, tobecontinued, trash, triggered, wasted
+         </p>
+      </div>
+    </div>
+    <!---  -->
+        <!-- Info cmds -->
+          <div class="accordion-item">
+      <button id="accordion-button-2" aria-expanded="false"><span class="accordion-title">Info Commands</span><span class="icon" aria-hidden="true"></span></button>
+      <div class="accordion-content">
+        <p>avatar, botinfo, channelinfo, djsdocs, invitations, roleinfo, rolememberinfo, screenshot, serverav, serverinfo, twitter, whois, wikipedia
+        </p>
+      </div>
+    </div>
+    <!---  -->
+    <!-- Mod cmds -->
+          <div class="accordion-item">
+      <button id="accordion-button-2" aria-expanded="false"><span class="accordion-title">Mod Commands</span><span class="icon" aria-hidden="true"></span></button>
+      <div class="accordion-content">
+        <p>
+ban, deafen, hackban, kick, lock, lockdown, mute, purge, resetwarns, roleadd, roledel, setnick, show-warns, slowmode, tempban, unban, undeafen, unlock, unmute, vcmove, warn
+        </p>
+      </div>
+    </div>
+    <!---  -->
+ <!-- Utility cmds -->
+          <div class="accordion-item">
+      <button id="accordion-button-2" aria-expanded="false"><span class="accordion-title">Utility Commands</span><span class="icon" aria-hidden="true"></span></button>
+      <div class="accordion-content">
+        <p> corona, help, ping, poll, removeafk, setafk, uptime 
+        </p>
+      </div>
+    </div>
+    <!---  -->
+ <!-- Music cmds -->
+          <div class="accordion-item">
+      <button id="accordion-button-2" aria-expanded="false"><span class="accordion-title">Music Commands</span><span class="icon" aria-hidden="true"></span></button>
+      <div class="accordion-content">
+        <p> mhelp, bassboost, clear, disconnect, grab, loop, loopqueue, lyrics, nowplaying, pause, play, queue, remove, resume, search, seek, shuffle, skipto, volume, youtube
+        </p>
+      </div>
+    </div>
+    <!---  -->
+
+    
+  </div>
+</div></div>
+    <div class="team-clean" style="background: rgba(0,0,0,0);">
+        <div class="container" style="filter: blur(0px);padding-bottom: 0px;">
+            <h3 class="text-center name" style="color: var(--secondary-text-color)">Top Servers Using Our Bot!</h3>
+            <div class="intro"></div>
+            <div class="row row-cols-4 d-flex d-xl-flex justify-content-center justify-content-xl-center people" style="padding-bottom: 0px;">
+                <div class="col-auto col-md-6 col-lg-4 yeet"><a href="https://discord.gg/rXcf3pt3q3" target="_blank"><img class="rounded-circle partner" src="./LC_logo.gif" alt= "Lightning Community"></a></div>
+                <div class="col-auto col-md-6 col-lg-4 yeet"><a href="https://discord.gg/dAFR2vw9vV" target="_blank"><img class="rounded-circle partner" src="https://cdn.discordapp.com/icons/803705917404872745/6142517babec056906f5069b53be82e2.webp?size=1024" alt= "Gaming Universe"></a></div>
+              
+              
+                <div class="col-auto col-md-6 col-lg-4 yeet"><a href="https://discord.gg/6uk235uPAf" target="_blank"><img class="rounded-circle partner" src = "https://cdn.discordapp.com/icons/767025861056004107/a_3ab821d76c916c1d93ed4bc06780b1e8.gif" alt= "Indians Hangout Place"></a></div>
+            </div>
+        </div>
+    </div>
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="var(--secondary)" fill-opacity="1" d="M0,160L48,154.7C96,149,192,139,288,154.7C384,171,480,213,576,218.7C672,224,768,192,864,181.3C960,171,1056,181,1152,192C1248,203,1344,213,1392,218.7L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+    <div class="footer-dark" style="background: var(--secondary);padding-top: 0px;padding-bottom: 0px;">
+        <div class="container">
+            <div class="row">
+                <div class="col item social"><a class="smoothScroll" href="#top"><i class="icon ion-android-arrow-up"></i></a></div>
+            </div>
+            <p class="copyright" style="color: var(--text-color);">©2021 Lightning bot.</p>
+            <p class="copyright" style="color: var(--text-color);padding: 0px;">
+                Bot made by&nbsp;<a href="https://github.com/LightningBolt62" target="_blank" style="color: var(--main-color);">LighningBolt</a></p>
+        </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/Counting.js"></script>
+    <script src="assets/js/untitled.js"></script>
+
+ 
+<p id="harlem"></p>
+
+<script>
+function HarlemShake() {  
+  
+ (function () {
+    function c() {
+        var e = document.createElement("link");
+        e.setAttribute("type", "text/css");
+        e.setAttribute("rel", "stylesheet");
+        e.setAttribute("href", f);
+        e.setAttribute("class", l);
+        document.body.appendChild(e)
+    }
+    function h() {
+        var e = document.getElementsByClassName(l);
+        for (var t = 0; t < e.length; t++) {
+            document.body.removeChild(e[t])
+        }
+    }
+    function p() {
+        var e = document.createElement("div");
+        e.setAttribute("class", a);
+        document.body.appendChild(e);
+        setTimeout(function () {
+            document.body.removeChild(e)
+        }, 100)
+    }
+    function d(e) {
+        return {
+            height: e.offsetHeight,
+            width: e.offsetWidth
+        }
+    }
+    function v(i) {
+        var s = d(i);
+        return s.height > e && s.height < n && s.width > t && s.width < r
+    }
+    function m(e) {
+        var t = e;
+        var n = 0;
+        while ( !! t) {
+            n += t.offsetTop;
+            t = t.offsetParent
+        }
+        return n
+    }
+    function g() {
+        var e = document.documentElement;
+        if ( !! window.innerWidth) {
+            return window.innerHeight
+        } else if (e && !isNaN(e.clientHeight)) {
+            return e.clientHeight
+        }
+        return 0
+    }
+    function y() {
+        if (window.pageYOffset) {
+            return window.pageYOffset
+        }
+        return Math.max(document.documentElement.scrollTop, document.body.scrollTop)
+    }
+    function E(e) {
+        var t = m(e);
+        return t >= w && t <= b + w
+    }
+    function S() {
+        var e = document.createElement("audio");
+        e.setAttribute("class", l);
+        e.src = i;
+        e.loop = false;
+        e.addEventListener("canplay", function () {
+            setTimeout(function () {
+                x(k)
+            }, 500);
+            setTimeout(function () {
+                N();
+                p();
+                for (var e = 0; e < O.length; e++) {
+                    T(O[e])
+                }
+            }, 15500)
+        }, true);
+        e.addEventListener("ended", function () {
+            N();
+            h()
+        }, true);
+        e.innerHTML = " <p>If you are reading this, it is because your browser does not support the audio element. We recommend that you get a new browser.</p> <p>";
+        document.body.appendChild(e);
+        e.play()
+    }
+    function x(e) {
+        e.className += " " + s + " " + o
+    }
+    function T(e) {
+        e.className += " " + s + " " + u[Math.floor(Math.random() * u.length)]
+    }
+    function N() {
+        var e = document.getElementsByClassName(s);
+        var t = new RegExp("\\b" + s + "\\b");
+        for (var n = 0; n < e.length;) {
+            e[n].className = e[n].className.replace(t, "")
+        }
+    }
+    var e = 30;
+    var t = 30;
+    var n = 350;
+    var r = 350;
+    var i = "https://s3.amazonaws.com/moovweb-marketing/playground/harlem-shake.mp3";
+    var s = "mw-harlem_shake_me";
+    var o = "im_first";
+    var u = ["im_drunk", "im_baked", "im_trippin", "im_blown"];
+    var a = "mw-strobe_light";
+    var f = "https://s3.amazonaws.com/moovweb-marketing/playground/harlem-shake-style.css";
+    var l = "mw_added_css";
+    var b = g();
+    var w = y();
+    var C = document.getElementsByTagName("*");
+    var k = null;
+    for (var L = 0; L < C.length; L++) {
+        var A = C[L];
+        if (v(A)) {
+            if (E(A)) {
+                k = A;
+                break
+            }
+        }
+    }
+    if (A === null) {
+        console.warn("Could not find a node of the right size. Please try a different page.");
+        return
+    }
+    c();
+    S();
+    var O = [];
+    for (var L = 0; L < C.length; L++) {
+        var A = C[L];
+        if (v(A)) {
+            O.push(A)
+        }
+    }
+})()
+  
+}
+</script>
+   
+    <noscript><h2>JavaScript is disabled in your browser. Please enable it or use a different browser like Chrome to view the web page properly.</h2></noscript>
+</body>
+
+</html>
+    
